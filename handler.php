@@ -20,9 +20,9 @@ $validator->field('Message')->maxLength(6000);
 
 
 $pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('copy-your-secret-key-here');
+$pp->getReCaptcha()->initSecretKey('6Lcs79AhAAAAAKBtFj4yrMX_3UJlrVaT7NTtp_5v');
 
 
-$pp->sendEmailTo('your-email-here'); // ← Your email here
+$pp->sendEmailTo('nyxo.edits@gmail.com'); // ← Your email here
 
 echo $pp->process($_POST);
