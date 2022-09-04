@@ -4,7 +4,7 @@ $siteKey 	= '6Lcu5dAhAAAAANYBp2hK9owLSXrs8P6RYfsJd3So';
 $secretKey 	= '6Lcu5dAhAAAAAB3eXelPFqgB_H5Uoz7ct_-4J9Ep';
 
 // Email settings
-$recipientEmail = 'nyxo.edits@gmail.com';
+$recipientEmail = 'email';
 
 
 // If the form is submitted
