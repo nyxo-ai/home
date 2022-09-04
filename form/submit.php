@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
 		if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
 
 			// Verify the reCAPTCHA API response
-			$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret= 6Lcu5dAhAAAAAB3eXelPFqgB_H5Uoz7ct_-4J9Ep'.$secretKey.'&response='.$_POST['g-recaptcha-response']);
+			$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secretKey.'&response='.$_POST['g-recaptcha-response']);
 			
 			// Decode JSON data of API response
 			$responseData = json_decode($verifyResponse);
