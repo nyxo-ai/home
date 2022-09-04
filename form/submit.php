@@ -1,7 +1,7 @@
 <?php
 // Google reCAPTCHA API keys settings
-$siteKey 	= '6Lcu5dAhAAAAANYBp2hK9owLSXrs8P6RYfsJd3So';
-$secretKey 	= '6Lcu5dAhAAAAAB3eXelPFqgB_H5Uoz7ct_-4J9Ep';
+$siteKey 	= '6Lcs79AhAAAAAFU17B4wAyiQ7yJVaL2vVGRYBf2x';
+$secretKey 	= '6Lcs79AhAAAAAKBtFj4yrMX_3UJlrVaT7NTtp_5v';
 
 // Email settings
 $recipientEmail = 'email';
