@@ -24,6 +24,12 @@
     color: #FFF;
     font-size: small;
 }
+
+.error{
+    width: 1510px;
+    height: 725px;
+}
+
 html {
     overflow-x: hidden;
     padding: 0;
